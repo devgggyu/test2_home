@@ -19,8 +19,10 @@ class MainActivity : AppCompatActivity() {
 
 //         아이디 비번 변수 선언
 
+           val name = "학생 대규 "
+
            if ( inputId == "daegu776@gmail.com" && inputPw =="qwer") {
-               Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
+               Toast.makeText(this, "${name} 로그인 성공", Toast.LENGTH_SHORT).show()
            }
 //           if문 작성
 
